@@ -7,11 +7,7 @@ var player2color = 'rgb(237, 45, 73)'
 var game_on = true;
 var table = $('table tr');
 
-function reportWin(rowNum,colNum) {
-  console.log("You won starting at this row,col");
-  console.log(rowNum);
-  console.log(colNum);
-}
+
 
 function changeColor(rowIndex,colIndex,color) {
       return table.eq(rowIndex).find('td').eq(colIndex).find('button').css('background-color',color)
