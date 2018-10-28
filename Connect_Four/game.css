@@ -6,3 +6,12 @@
   border: 2px solid black;
   border-radius: 50%;
 }
+.tr{
+   background-color: gray;
+}
+.td{
+ background-color: gray;
+}
+.body{
+  background-color: gray; 
+}
